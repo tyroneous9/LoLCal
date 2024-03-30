@@ -1,0 +1,15 @@
+<% if user_signed_in? %>
+  <h1>Course Schedules</h1>
+
+  <% @course_schedules.each do |course_schedule| %>
+    <div>
+      <p>
+        User: <%= course_schedule.display_user %><br>
+        Quarter name: <%= course_schedule.quarter_name %><br>
+        <%= link_to 'Show course schedule', course_schedule_path(course_schedule) %>
+      </p>
+    </div>
+  <% end %>
+
+  <%= link_to 'New course schedule', new_course_schedule_path %>
+<% end %>

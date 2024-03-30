@@ -1,0 +1,25 @@
+<% if user_signed_in? %>
+  <%#= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete } %>
+
+  <h1 style="margin-bottom: 20px; color: #C89B3C;">LoL Cal</h1>
+
+  <% Build.all.each do |build| %>
+      <% if build.user_id == current_user.id %>
+        <h2><%= build.name %></h2>
+        <% BuildItem.all.each do |build_item| %>
+          <% if build_item.build_id == build.id %>
+            <% Item.all.each do |item| %>
+              <% if build_item.item_id == item.id %>
+                <div><%= item.name %></div>
+              <% end %>
+            <% end %>
+          <% end %>
+        <% end %>
+      <% end %>
+  <% end %>
+
+  <%= link_to 'New build', articles_path, data: { turbo: false }, style: 'display: block; margin-bottom: 20px;' %>
+<% else %>
+  <h1 style="margin-bottom: 20px;">Home</h1>
+  <%= link_to 'Sign in', new_user_session_path, style: 'display: block; margin-bottom: 20px;' %>
+<% end %>

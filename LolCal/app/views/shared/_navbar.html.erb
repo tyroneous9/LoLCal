@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background: #0A1428 !important;">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="color: #C89B3C; font-family: Beaufort; font-size: 32px; font-weight: bold" href="/">LoL Cal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="navbar-nav ms-auto">
+        <% if user_signed_in? %>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #FFFFFF !important">
+              <%= current_user.email %>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to 'Builds', root_path, data: { turbo: false }, class: "dropdown-item" %></li>
+              <li><%= link_to 'New Build', articles_path, data: { turbo: false }, class: "dropdown-item" %></li>
+              <li><%= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete }, class: "dropdown-item", id: "logout-link" %></li>
+            </ul>
+          </div>
+        <% else %>
+          <a class="nav-link" href="/users/sign_in" style="color: #FFFFFF !important">Login</a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <script type="module">import "calculate";</script>
+</nav>

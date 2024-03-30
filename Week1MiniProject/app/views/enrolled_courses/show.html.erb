@@ -1,0 +1,10 @@
+<p>
+  Schedule: <%= @enrolled_course.course_schedule.quarter_name %><br>
+  Name: <%= @enrolled_course.course_name %><br>
+  Day of Week: <%= @enrolled_course.course_day_of_week %><br>
+  Start: <%= @enrolled_course.course_meeting_start.strftime("%I:%M%p") %><br>
+  End: <%= @enrolled_course.course_meeting_end.strftime("%I:%M%p") %><br>
+  <%= link_to 'Edit', edit_enrolled_course_path(@enrolled_course) %> <br>
+  <%= link_to 'Delete', @enrolled_course, data: {turbo_method: :delete} %> <br>
+  <%= link_to 'Back to enrolled courses', enrolled_courses_path %>
+</p>

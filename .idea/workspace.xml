@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc4adabc-f1d4-48b2-9890-67952dae6e08" name="Changes" comment="layout format">
+      <change beforePath="$PROJECT_DIR$/LoLCal/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/assets/images/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/assets/images/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/controllers/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/controllers/concerns/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/controllers/users/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/helpers/articles_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/helpers/articles_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/helpers/course_schedules_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/helpers/course_schedules_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/helpers/users_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/javascript/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/hello_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/hello_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/javascript/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/jobs/application_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/models/application_record.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/models/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/models/concerns/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/confirmations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/confirmations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/confirmation_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/confirmation_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/email_changed.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/email_changed.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/password_change.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/password_change.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/reset_password_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/reset_password_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/unlock_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/mailer/unlock_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/passwords/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/passwords/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/passwords/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/passwords/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/registrations/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/shared/_error_messages.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/shared/_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/shared/_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/devise/unlocks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/devise/unlocks/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/layouts/mailer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/layouts/mailer.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/confirmations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/confirmations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/confirmation_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/confirmation_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/email_changed.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/email_changed.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/password_change.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/password_change.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/reset_password_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/reset_password_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/unlock_instructions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/mailer/unlock_instructions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/passwords/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/passwords/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/passwords/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/passwords/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/registrations/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/registrations/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/shared/_error_messages.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/shared/_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/shared/_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/app/views/users/unlocks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/app/views/users/unlocks/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/docker-entrypoint" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/docker-entrypoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/importmap" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/importmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/rails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/cable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/credentials.yml.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/environment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/importmap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/importmap.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/content_security_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/devise.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/inflections.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/initializers/permissions_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/initializers/permissions_policy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/locales/devise.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/locales/devise.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/master.key" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/master.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/puma.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/db/migrate/20240111202317_create_articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/db/migrate/20240111202317_create_articles.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/db/migrate/20240125205523_add_devise_to_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/db/migrate/20240125205523_add_devise_to_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/lib/assets/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/lib/assets/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/lib/tasks/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/lib/tasks/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/log/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/log/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/422.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/apple-touch-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/storage/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/storage/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/storage/development.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/storage/development.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/application_system_test_case.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/channels/application_cable/connection_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/channels/application_cable/connection_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/controllers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/controllers/articles_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/controllers/articles_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/controllers/course_schedules_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/controllers/course_schedules_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/controllers/users_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/controllers/users_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/fixtures/articles.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/fixtures/articles.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/fixtures/files/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/fixtures/files/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/helpers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/helpers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/integration/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/integration/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/mailers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/mailers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/models/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/models/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/models/article_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/models/article_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/system/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/system/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/vendor/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/vendor/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoLCal/vendor/javascript/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/LoLCal/vendor/javascript/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LolCal/db/migrate/20240207043136_create_items.rb" beforeDir="false" afterPath="$PROJECT_DIR$/LolCal/db/migrate/20240207043136_create_items.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="wesley" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ezayed31&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="774d1a2f-121c-4633-8e3e-467f5435b185" />
+        <option name="url" value="https://github.com/sebi12391/CSC394-Group2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="logAnalyzerSettings">
+          <LogAnalyzerSettings>
+            <option name="splitterProportion" value="0.27664974" />
+          </LogAnalyzerSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2as74Zgakv5J0pr3uMsXdZ6cxeZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eyadzayed/RubymineProjects/CSC394-Group2/Week1MiniProject/app/views/courses_schedules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Erlang External Tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week1MiniProject/app/views/courses_schedules" />
+      <recent name="$PROJECT_DIR$/Week1MiniProject/app/controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week1MiniProject/app/controllers" />
+      <recent name="$PROJECT_DIR$/Week1MiniProject/app/views/enrolled_courses" />
+      <recent name="$PROJECT_DIR$/Week1MiniProject/app/views" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="true" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="Default" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <predefined_log_file enabled="true" id="RUBY_RAKE" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc4adabc-f1d4-48b2-9890-67952dae6e08" name="Changes" comment="" />
+      <created>1705095241727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705095241727</updated>
+      <workItem from="1705095242877" duration="850000" />
+      <workItem from="1705096210518" duration="1309000" />
+      <workItem from="1705098090818" duration="1934000" />
+      <workItem from="1705100089302" duration="1212000" />
+      <workItem from="1705116479910" duration="1968000" />
+      <workItem from="1705118460355" duration="446000" />
+      <workItem from="1705118962611" duration="12990000" />
+      <workItem from="1705703772893" duration="5000" />
+      <workItem from="1705703787663" duration="1090000" />
+      <workItem from="1705899361295" duration="4580000" />
+      <workItem from="1705967064685" duration="5836000" />
+      <workItem from="1706073586440" duration="540000" />
+      <workItem from="1706074200060" duration="1264000" />
+      <workItem from="1706076871585" duration="11130000" />
+      <workItem from="1706150757011" duration="32598000" />
+      <workItem from="1707355081107" duration="6311000" />
+    </task>
+    <task id="LOCAL-00001" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1705278084920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705278084920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1705341795797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705341795797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706158552104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706158552104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706160442373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706160442373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706254658064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706254658064</updated>
+    </task>
+    <task id="LOCAL-00006" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706254980443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706254980443</updated>
+    </task>
+    <task id="LOCAL-00007" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706255857695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706255857695</updated>
+    </task>
+    <task id="LOCAL-00008" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706324054806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706324054806</updated>
+    </task>
+    <task id="LOCAL-00009" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706404405398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706404405398</updated>
+    </task>
+    <task id="LOCAL-00010" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706416180534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706416180534</updated>
+    </task>
+    <task id="LOCAL-00011" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706417034295</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706417034295</updated>
+    </task>
+    <task id="LOCAL-00012" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706418413950</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706418413950</updated>
+    </task>
+    <task id="LOCAL-00013" summary="schedule commit">
+      <option name="closed" value="true" />
+      <created>1706495804714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706495804714</updated>
+    </task>
+    <task id="LOCAL-00014" summary="layout format">
+      <option name="closed" value="true" />
+      <created>1707364707861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707364707861</updated>
+    </task>
+    <task id="LOCAL-00015" summary="layout format">
+      <option name="closed" value="true" />
+      <created>1707364830216</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707364830216</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="schedule commit" />
+    <MESSAGE value="layout format" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout format" />
+  </component>
+</project>

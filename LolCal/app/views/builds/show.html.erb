@@ -1,0 +1,28 @@
+<h1 style="color: #C89B3C;
+  font-family: Beaufort;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: underline;
+  margin-bottom: 20px">League of Legends Calculator</h1>
+
+<h2 style="font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #F0E6D2"><%= @build.name %></h2>
+
+<ul>
+  <% @build.build_items.each do |build_item| %>
+    <li style="color: #FFFFFF;
+      font-family: Beaufort;
+      font-weight: bold;
+      font-size: 22px; margin-bottom: 20px;"><%= build_item.item.name%></li>
+  <% end %>
+  <div>
+  <%= link_to "Destroy", build_path(@build), method: :delete, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" },
+      style: "width: fit-content; padding: 10px; background-color: #C89B3C; color: white; border: none; cursor: pointer;
+      border-radius: 5px; text-align: center; white-space: nowrap; text-decoration: none;" %>
+    <%= link_to 'Back to Builds', root_path, data: { turbo: false }, style: "width: fit-content; padding: 10px;
+      background-color: #C89B3C; color: white; border: none; cursor: pointer;
+      border-radius: 5px; text-align: center; white-space: nowrap; text-decoration: none;" %>
+  </div>
+</ul>

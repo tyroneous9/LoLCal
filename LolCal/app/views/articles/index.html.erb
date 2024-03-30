@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+          margin: 0;
+          padding: 0;
+          font-family: Georgia, sans-serif;
+          color: #ffffff;
+        }
+
+        .main-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 30px;
+          padding: 20px;
+        }
+
+        .vertical-container {
+          display: grid;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .items-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
+
+        #items-table {
+          overflow-x: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          overflow-wrap: break-word;
+          max-height: 600px;
+          height: auto;
+          width: 1000px;
+          margin: 10px 0;
+          table-layout: fixed;
+        }
+
+        .build-container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+        }
+
+        #build-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+
+        .divs-container {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          justify-content: center;
+          align-items: center;
+          width: 300px;
+        }
+
+        .calculation-container, .select-container {
+            background: #5B5A56;
+            border: 2px solid #C89B3C;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            margin: 5px 5px;
+        }
+
+        td {
+            width: 16.66%;
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        th {
+          border: 1px solid #dddddd;
+          text-align: center;
+          padding: 8px;
+          box-sizing: border-box;
+          position: sticky;
+          top: 0;
+          background: #5B5A56;
+          z-index: 2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            border: 1px solid #5B5A56;
+        }
+
+        .header {
+          color: #C89B3C;
+          font-family: Beaufort;
+          font-weight: bold;
+          font-size: 48px;
+          margin: 0;
+          text-decoration: underline;
+        }
+
+        .sticky-cell {
+            position: sticky;
+            top: 60px;
+            background: #A09B8C;
+            z-index: 1;
+        }
+
+        .table-header {
+          background: #5B5A56;
+          color: #F0E6D2;
+        }
+
+        .table-row {
+          background: #A09B8C;
+        }
+
+        button {
+            width: fit-content;
+            padding: 10px;
+            background-color: #C89B3C;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            white-space: nowrap
+        }
+
+        button:hover {
+            background-color: #C8AA6E;
+        }
+
+        #items-table .sort-button.selected-button {
+            background-color: #785A28;
+        }
+
+
+        h2 {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #F0E6D2;
+        }
+
+    </style>
+</head>
+<body>
+  <h1 class="header" >League of Legends Calculator</h1>
+  <div class="main-container">
+    <div class='vertical-container'>
+        <div id="build-container" class="build-container">
+          <h2>Build</h2>
+          <ul id="build-list">
+            <!-- Items will be inserted here -->
+          </ul>
+        </div>
+      <div style="display: flex; width: 1000px;">
+        <button id="randomize-build-btn" type="button" class="button" style="margin-bottom: 25px;">Randomize Build</button>
+        <input type="text" id="build-name-field" placeholder="Build name..." style="height: 45px; margin-left: 475px; border: 1px solid #5B5A56; width: 300px;">
+        <button id="save-build-btn" type="button" class="button" style="margin-bottom: 25px; margin-left: 10px">Save Build</button>
+      </div>
+      <div class="items-container">
+        <div id="items-table">
+          <table>
+            <tr>
+              <th colspan="6"><h2>Shop</h2></th>
+            </tr>
+            <tr class="sticky-row">
+              <td class="sticky-cell" colspan="2" style="border: none; border-left: 1px solid #dddddd"><input type="text" id="items-search-field" placeholder="Search items..." style="width:100%; padding: 5px;"></td>
+              <td class="sticky-cell" class="selected-button" style="border: none;">
+                <button id="sort-attack-damage-btn" type="button" class="button sort-button" style="margin-bottom: 5px">Attack Damage</button>
+                <button id="sort-ability-power-btn" type="button" class="button sort-button">Ability Power</button>
+              </td>
+              <td class="sticky-cell" class="selected-button" style="border: none;">
+                <button id="sort-armor-btn" type="button" class="button sort-button" style="margin-bottom: 5px">Armor</button>
+                <button id="sort-magic-resist-btn" type="button" class="button sort-button">Magic Resist</button>
+              </td>
+              <td class="sticky-cell" class="selected-button" style="border: none;">
+                <button id="sort-health-btn" type="button" class="button sort-button" style="margin-bottom: 5px; padding-left: 20px; padding-right: 20px">Health</button>
+                <button id="sort-mana-btn" type="button" class="button sort-button" style="padding-left: 20px; padding-right: 20px">Mana</button>
+              </td>
+              <td class="sticky-cell" class="selected-button" style="border: none;"><button id="sort-none-btn" type="button" class="button">Clear Filters</button></td>
+            </tr>
+            <tbody id="items-table-body">
+              <!-- Items will be inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="divs-container">
+      <div id="calculation-container" class="calculation-container">
+        <h2>Calculations</h2>
+        <ul id="calculation-list" style="text-align: center; padding: 0; margin: 0px 0px;">
+          <!-- Calculations will be inserted here -->
+        </ul>
+      </div>
+      <div id="select-item-container" class="select-container">
+        <h2>Selected Item</h2>
+        <ul id="select-item-list" style="text-align: center; padding: 0; margin: 0px 0px;">
+          <!-- Selected item will be inserted here -->
+        </ul>
+        <button id="add-item-btn" type="button" class="button">Add Item</button>
+        <button id="remove-item-btn" type="button" class="button">Remove Item</button>
+      </div>
+    </div>
+  </div>
+  <script type="module">import "calculate";</script>
+</body>
+</html>
