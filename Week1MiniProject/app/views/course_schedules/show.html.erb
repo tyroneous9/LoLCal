@@ -1,8 +1,0 @@
-<p>
-<!--  User: <%#= @course_schedule.users_id %><br>-->
-  User: <%= @course_schedule.user.first_name %> <%= @course_schedule.user.last_name %><br>
-  Quarter Name: <%= @course_schedule.quarter_name %><br>
-  <%= link_to 'Edit', edit_course_schedule_path(@course_schedule) %> <br>
-  <%= link_to 'Delete', @course_schedule, data: {turbo_method: :delete} %> <br>
-  <%= link_to 'Back to course schedules', course_schedules_path %>
-</p>
